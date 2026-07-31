@@ -30,3 +30,15 @@
 -- *args, **kwargs: Makes decorators work with any function signature.
 -- functools.wraps: Preserves the original function's metadata.
 -- Common Uses: Logging, authentication, authorization, caching, timing, validation, routing in Flask/FastAPI.
+
+
+## Day 003:
+
+-- Generator: An iterator that produces values one at a time on demand.
+-- Keyword: yield
+-- Lazy Evaluation: Compute values only when needed.
+-- yield: Returns a value, pauses execution, and preserves the function's state.
+-- next(): Retrieves the next generated value.
+-- StopIteration: Raised when the generator is exhausted.
+-- Generator Expression: (expression for item in iterable)
+-- Best Use Cases: Large files, streaming data, pipelines, infinite sequences, memory-efficient processing.
