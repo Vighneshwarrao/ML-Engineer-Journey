@@ -1,4 +1,4 @@
-## Day 001 :
+  ## Day 001 :
 Date: 29 July 2026
 
 Today's Goal
@@ -41,7 +41,7 @@ Next Topic
 Generators
 
 ## Day 003 :
-Date: 30 July 2026
+Date: 31 July 2026
 
 Today's Goal
 -------------
@@ -59,4 +59,25 @@ Time Spent
 
 Next Topic
 -------------
-Iterators,context managers
+Iterators
+
+## Day 004 :
+Date: 06 August 2026
+
+Today's Goal
+-------------
+Learn Iterators in python.
+
+Completed
+-----------
+✅ Theory
+✅ Examples
+✅ Implementation in python
+
+Time Spent
+------------
+1 hr
+
+Next Topic
+-------------
+excception Handling

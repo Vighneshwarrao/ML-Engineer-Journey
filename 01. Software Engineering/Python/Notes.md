@@ -42,3 +42,13 @@
 -- StopIteration: Raised when the generator is exhausted.
 -- Generator Expression: (expression for item in iterable)
 -- Best Use Cases: Large files, streaming data, pipelines, infinite sequences, memory-efficient processing.
+
+
+## Day 004:
+
+-- Iterable: An object you can loop over (list, tuple, string, dictionary, range, etc.).
+-- Iterator: An object that returns one item at a time and remembers where it is.
+-- iter(iterable) creates an iterator.
+-- next(iterator) gets the next item.
+-- When no items remain, next() raises StopIteration.
+-- A for loop automatically uses iter() and repeatedly calls next() until StopIteration
