@@ -80,4 +80,25 @@ Time Spent
 
 Next Topic
 -------------
-excception Handling
+Exception Handling
+
+## Day 005 :
+Date: 07 August 2026
+
+Today's Goal
+-------------
+Learn Exception Handling in python.
+
+Completed
+-----------
+✅ Theory
+✅ Examples
+✅ Implementation in python
+
+Time Spent
+------------
+30 mins
+
+Next Topic
+-------------
+Async Programming 

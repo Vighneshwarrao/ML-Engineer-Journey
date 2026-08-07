@@ -52,3 +52,13 @@
 -- next(iterator) gets the next item.
 -- When no items remain, next() raises StopIteration.
 -- A for loop automatically uses iter() and repeatedly calls next() until StopIteration
+
+## Day 005:
+
+-- Exception: A runtime error that interrupts normal execution.
+-- try: Code that might raise an exception.
+-- except: Handles an exception.
+-- else: Runs only if no exception occurs.
+-- finally: Runs whether or not an exception occurs.
+-- Catch specific exceptions instead of using a bare except.
+-- Use Exception as e when you need details about the error.
