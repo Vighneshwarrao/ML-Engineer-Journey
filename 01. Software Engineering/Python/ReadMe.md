@@ -102,3 +102,24 @@ Time Spent
 Next Topic
 -------------
 Async Programming 
+
+## Day 006 :
+Date: 08 August 2026
+
+Today's Goal
+-------------
+Learn Async Programming in python.
+
+Completed
+-----------
+✅ Theory
+✅ Examples
+✅ Implementation in python
+
+Time Spent
+------------
+30 mins
+
+Next Topic
+-------------
+Testing with pytest

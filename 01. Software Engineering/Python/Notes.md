@@ -62,3 +62,16 @@
 -- finally: Runs whether or not an exception occurs.
 -- Catch specific exceptions instead of using a bare except.
 -- Use Exception as e when you need details about the error.
+
+## Day 006:
+
+-- async def → defines a coroutine function.
+-- Calling an async function → creates a coroutine object.
+-- await → pauses the coroutine and gives the event loop an opportunity to run other work.
+-- Event loop → manages asynchronous execution.
+-- asyncio.run() → starts an async program.
+-- asyncio.gather() → allows multiple awaitable operations to run concurrently.
+-- Async is mainly useful for I/O-bound operations.
+-- Async is not the same as multithreading or multiprocessing.
+-- time.sleep() blocks; await asyncio.sleep() does not block the event loop.
+-- Simply using async does not automatically make code concurrent. How you schedule/await the coroutines matters.
