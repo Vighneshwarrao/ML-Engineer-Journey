@@ -123,3 +123,24 @@ Time Spent
 Next Topic
 -------------
 Testing with pytest
+
+## Day 007 :
+Date: 08 August 2026
+
+Today's Goal
+-------------
+Learn Testing with  pytest in python.
+
+Completed
+-----------
+✅ Theory
+✅ Examples
+✅ Implementation in python
+
+Time Spent
+------------
+30 mins
+
+Next Topic
+-------------
+pytest fixtures
