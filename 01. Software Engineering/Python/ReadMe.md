@@ -125,7 +125,7 @@ Next Topic
 Testing with pytest
 
 ## Day 007 :
-Date: 08 August 2026
+Date: 10 August 2026
 
 Today's Goal
 -------------
@@ -144,3 +144,24 @@ Time Spent
 Next Topic
 -------------
 pytest fixtures
+
+## Day 007 :
+Date: 11 August 2026
+
+Today's Goal
+-------------
+Learn Testing with  pytest in python - part2 (Fixtures) and virtual environments.
+
+Completed
+-----------
+✅ Theory
+✅ Examples
+✅ Implementation in python
+
+Time Spent
+------------
+1 hr
+
+Next Topic
+-------------
+Logging

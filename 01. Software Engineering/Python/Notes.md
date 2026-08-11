@@ -75,3 +75,56 @@
 -- Async is not the same as multithreading or multiprocessing.
 -- time.sleep() blocks; await asyncio.sleep() does not block the event loop.
 -- Simply using async does not automatically make code concurrent. How you schedule/await the coroutines matters.
+
+## Day 007:
+
+-- Pytest is a Python testing framework used to automate testing of Python code.
+
+-- Test case is a piece of code that checks whether a specific behavior works correctly.
+
+-- Pytest mainly uses assert statements to verify expected results.
+
+-- Test files are commonly named test_*.py or *_test.py.
+
+-- Test functions normally start with test_ so pytest can automatically discover them.
+
+-- Run all tests using pytest.
+
+-- Run tests with more details using pytest -v.
+
+-- Run a specific test file using pytest test_file.py.
+
+-- Run a specific test using pytest test_file.py::test_name.
+
+-- pytest.raises() is used to test whether code raises an expected exception.
+
+## Day 008:
+
+-- Fixtures are reusable setup components that provide data, objects, or resources to tests.
+
+-- @pytest.fixture is used to create a fixture.
+
+-- conftest.py stores shared fixtures and pytest configuration for multiple test files.
+
+-- Parametrization allows the same test to run with multiple sets of input values using @pytest.mark.parametrize.
+
+-- Markers categorize tests and allow you to selectively run them, e.g. @pytest.mark.integration.
+
+-- Mocking replaces external dependencies such as APIs, databases, or services with controlled fake objects during testing.
+
+-- Unit testing tests a small, isolated piece of code such as a function.
+
+-- Integration testing checks whether multiple components work correctly together.
+
+-- Pytest provides clear information about passed and failed tests, including the expected and actual values.
+
+-- Pytest can test data cleaning, feature engineering, data validation, model input/output, and ML pipelines.
+
+-- For ML engineers, pytest can test model loading, prediction APIs, batch predictions, and model performance thresholds.
+
+-- Pytest can be integrated into CI/CD pipelines so deployment can be stopped when tests fail.
+
+-- In production ML systems, pytest helps prevent regressions, where a code change accidentally breaks previously working functionality.
+
+-- Core pytest flow:
+Write code → Write tests → Run pytest → Fix failures → Deploy
