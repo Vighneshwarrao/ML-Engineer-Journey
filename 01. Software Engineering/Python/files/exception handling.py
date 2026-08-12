@@ -4,8 +4,8 @@ try:
 
 except ValueError:
     print("Invalid num")
-except ZeroDivisionError:
-    print("0 is not divisible")
+except ZeroDivisionError as e:
+    print(e)
 
 else:
     print(res)

@@ -1,4 +1,4 @@
-  ## Day 001 :
+## Day 001 :
 Date: 29 July 2026
 
 Today's Goal
@@ -145,7 +145,7 @@ Next Topic
 -------------
 pytest fixtures
 
-## Day 007 :
+## Day 008 :
 Date: 11 August 2026
 
 Today's Goal
@@ -165,3 +165,24 @@ Time Spent
 Next Topic
 -------------
 Logging
+
+## Day 009 :
+Date: 12 August 2026
+
+Today's Goal
+-------------
+Learn Logging in  python.
+
+Completed
+-----------
+✅ Theory
+✅ Examples
+✅ Implementation in python
+
+Time Spent
+------------
+1 hr
+
+Next Topic
+-------------
+Get started with SQL
