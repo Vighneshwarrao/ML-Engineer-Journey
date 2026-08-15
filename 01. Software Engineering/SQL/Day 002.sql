@@ -37,7 +37,7 @@ where first_name like 'A%';
 
 select * 
 from products
-where product_name like 'Pro%';
+where product_name like '%pro%';
 
 -- Q7. Pending, Shipped, or Delivered orders with amount > 500000.
 
