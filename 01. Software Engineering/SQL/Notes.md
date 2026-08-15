@@ -18,3 +18,16 @@
 -- 7. DISTINCT
 -- 8. ORDER BY
 -- 9. LIMIT
+
+## Day 011:
+
+-- ROW_NUMBER() → unique sequential number for every row
+-- RANK() → same rank for ties, gaps after ties
+-- DENSE_RANK() → same rank for ties, no gaps
+-- PARTITION BY → ranking restarts for each partition
+-- ORDER BY → determines ranking order
+-- ROW_NUMBER() is useful when every row needs a unique position
+-- RANK() is useful for competition-style ranking
+-- DENSE_RANK() is useful when ranking distinct values
+-- Add a tie-breaker to ROW_NUMBER() when deterministic ordering is required
+-- "Rank X within each Y" → PARTITION BY Y ORDER BY X
