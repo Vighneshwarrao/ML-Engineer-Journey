@@ -59,3 +59,25 @@
 -- PARTITION BY → creates a separate frame sequence for each group
 -- ROWS → based on physical rows
 -- RANGE → based on ORDER BY values
+
+## Day 013:
+
+-- Stored Procedure → reusable set of SQL statements stored in the database
+-- Procedure is executed using CALL
+-- Procedure can contain multiple SQL statements
+-- IN → input parameter
+-- OUT → output parameter
+-- INOUT → input + output parameter
+-- DECLARE → creates a local variable inside a procedure/function
+-- SELECT ... INTO → stores query result into a variable
+-- IF / ELSEIF / ELSE → conditional logic
+-- Procedure is best for database operations and workflows
+-- UDF → User-Defined Function
+-- Function is a reusable calculation/ transformation
+-- Function must specify RETURNS datatype
+-- RETURN → returns the function's value
+-- Function can be used inside SELECT expressions
+-- Function returns a single value
+-- DETERMINISTIC → same input produces the same output
+-- Procedure → "perform a task"
+-- Function → "calculate/return a value"

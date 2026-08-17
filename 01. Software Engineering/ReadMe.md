@@ -251,4 +251,27 @@ Time Spent
 
 Next Topic
 -------------
-Window Functions - Stored procedures and UDF's
+Stored procedures and UDF's
+
+## Day 013:
+Date: 17 August 2026
+
+Today's Goal
+-------------
+Learn Stored procedures and UDF's
+
+Completed
+-----------
+✅ Theory
+✅ Examples
+✅ Implementation in MYSQL
+✅ Practice
+✅ Practice 5 Window Function Qn's
+
+Time Spent
+------------
+1 hr 30 mins
+
+Next Topic
+-------------
+CTE's
