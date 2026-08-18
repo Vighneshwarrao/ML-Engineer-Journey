@@ -81,3 +81,73 @@
 -- DETERMINISTIC → same input produces the same output
 -- Procedure → "perform a task"
 -- Function → "calculate/return a value"
+
+## Day 014:
+
+-- CTE = Common Table Expression
+
+-- CTE creates a temporary named result set
+-- CTE exists only for the current SQL statement
+-- CTE starts with the WITH keyword
+
+-- Basic syntax:
+WITH cte_name AS (
+    SELECT ...
+)
+SELECT *
+FROM cte_name;
+
+-- CTE improves query readability
+-- CTE helps break complex queries into logical steps
+-- CTE can be used with SELECT, JOIN, GROUP BY, HAVING and window functions
+
+-- Multiple CTEs are separated by commas
+
+WITH cte1 AS (
+    SELECT ...
+),
+cte2 AS (
+    SELECT ...
+    FROM cte1
+)
+SELECT *
+FROM cte2;
+
+-- CTE vs Temporary Table:
+-- CTE → exists for one SQL statement
+-- TEMP TABLE → can be reused across multiple statements
+
+-- CTE vs VIEW:
+-- CTE → temporary query-level result
+-- VIEW → permanently stored database object
+
+-- Recursive CTE uses:
+-- WITH RECURSIVE
+-- Useful for hierarchies, trees and sequences
+
+WITH RECURSIVE numbers AS (
+    SELECT 1 AS n
+    UNION ALL
+    SELECT n + 1
+    FROM numbers
+    WHERE n < 5
+)
+SELECT *
+FROM numbers;
+
+-- SET OPERATORS
+-- Combine results from multiple SELECT statements.
+
+-- Main operators:
+-- UNION
+-- Combines results and removes duplicates
+-- UNION ALL
+-- Combines results and keeps duplicates
+-- INTERSECT
+-- Returns rows common to both queries
+-- EXCEPT
+-- Returns rows from first query
+-- that don't exist in second query
+-- KEY DIFFERENCE:
+-- JOIN      → combines columns horizontally
+-- UNION     → combines rows vertically

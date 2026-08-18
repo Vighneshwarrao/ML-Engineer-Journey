@@ -13,16 +13,35 @@ from employees;
 -- Q2. Display every customer order with a sequential order number
 -- for each customer based on order date.
 
+select customer_id,order_date,
+	   row_number() over(order by customer_id) as row_num
+from orders;
 
 -- Q3. Find the latest order of every customer.
 
+select customer_id,order_date as latest_order
+from  (
+		select customer_id,order_date,
+               row_number() over(partition by customer_id order by order_date desc) as row_num 
+		from orders) o 
+where row_num=1;
 
 -- Q4. Assign employees a sequential number within each department
 -- based on salary from highest to lowest.
 
+select employee_name,salary,department,
+	   row_number() over(partition by department order by salary desc) as rn
+from employees;
 
 -- Q5. Find the most recent Completed order for every customer.
 
+select customer_id,order_date,order_id,order_status
+from (
+		select customer_id,order_date,order_id,order_status,
+			   row_number() over(partition by customer_id order by order_date desc) as rn
+		from orders
+        where order_status="Completed") o
+where rn=1;
 
 
 -- MEDIUM
@@ -30,19 +49,48 @@ from employees;
 
 -- Q6. Rank all employees based on salary from highest to lowest.
 
+select employee_name,salary,
+	   rank() over(order by salary desc) as Salary_rank
+from employees;
+
 
 -- Q7. Rank employees within each department based on salary.
 
+select employee_name,department,salary,
+	   rank() over(partition by department order by salary desc) as salary_rank
+from employees;
 
 -- Q8. Find the highest-paid employee in each department.
+
+with highest_salary as(
+						select employee_name,department,salary,
+							   rank() over(partition by department order by salary desc)  as rn
+						from employees)
+select employee_name,department,salary
+from highest_salary
+where rn=1;
 
 
 -- Q9. Find the top 2 highest-paid employees from each department.
 
+with highest_salary as(
+						select employee_name,department,salary,
+							   rank() over(partition by department order by salary desc)  as rn
+						from employees)
+select employee_name,department,salary
+from highest_salary
+where rn<=2;
 
 -- Q10. Find employees who have the second-highest salary
 -- in each department, including ties.
 
+with second_highest_salary as(
+						select employee_name,department,salary,
+							   rank() over(partition by department order by salary desc)  as rn
+						from employees)
+select employee_name,department,salary
+from second_highest_salary
+where rn=2;
 
 -- Q11. For every customer order, display the previous order date
 -- for that customer.

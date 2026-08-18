@@ -199,7 +199,7 @@ Completed
 ✅ Theory
 ✅ Examples
 ✅ Implementation in MYSQL
-✅ Practice
+✅ Practice SELECT, WHERE, ORDER BY, DISTINCT, LIMIT 
 
 Time Spent
 ------------
@@ -221,7 +221,7 @@ Completed
 ✅ Theory
 ✅ Examples
 ✅ Implementation in MYSQL
-✅ Practice
+✅ Practice Operators, LIKE, IN, BETWEEN, NULL
 
 Time Spent
 ------------
@@ -243,7 +243,7 @@ Completed
 ✅ Theory
 ✅ Examples
 ✅ Implementation in MYSQL
-✅ Practice
+✅ Practice Aggregate Functions, GROUP BY, HAVING 
 
 Time Spent
 ------------
@@ -265,7 +265,7 @@ Completed
 ✅ Theory
 ✅ Examples
 ✅ Implementation in MYSQL
-✅ Practice
+✅ Practice CASE, String Functions, Date Functions
 ✅ Practice 5 Window Function Qn's
 
 Time Spent
@@ -274,4 +274,27 @@ Time Spent
 
 Next Topic
 -------------
-CTE's
+CTE's and set operators
+
+## Day 014:
+Date: 18 August 2026
+
+Today's Goal
+-------------
+Learn CTE's and set operators in MySQL
+
+Completed
+-----------
+✅ Theory
+✅ Examples
+✅ Implementation in MYSQL
+✅ Practice INNER JOIN, LEFT JOIN, RIGHT JOIN, SELF JOIN 
+✅ Practice 5 Window Function Qn's
+
+Time Spent
+------------
+1 hr 30 mins
+
+Next Topic
+-------------
+Indexes

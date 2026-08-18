@@ -36,7 +36,6 @@ Projects/
 * Practice Exercises
 * Mini Projects
 * End-to-End Projects
-* Weekly Progress
 
 ## 🎯 Goal
 
